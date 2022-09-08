@@ -1,1 +1,4 @@
-gitign.log
+*.log
+*.db
+/target
+/bin
