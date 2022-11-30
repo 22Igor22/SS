@@ -1,7 +1,9 @@
-<suite name="All tests" verbose="1">
-    <test name="All tests">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" >
+    <test name="All tests"   >
         <packages>
-            <package name="com.Bay.ta.test"/>
+            <package name="com.bay.ta.test" />
         </packages>
     </test>
 </suite>
