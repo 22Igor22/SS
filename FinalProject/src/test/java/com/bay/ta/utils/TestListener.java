@@ -20,6 +20,7 @@ public class TestListener implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         saveScreenshot();
     }
+
     private void saveScreenshot(){
         File screenCapture = ((TakesScreenshot) DriverSingleton
                 .getDriver())
