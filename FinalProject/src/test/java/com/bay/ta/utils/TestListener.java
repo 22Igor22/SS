@@ -1,6 +1,7 @@
 package com.bay.ta.utils;
 
 import com.bay.ta.driver.DriverSingleton;
+import com.bay.ta.tests.CommonConditions;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -14,7 +15,7 @@ import java.io.IOException;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class TestListener implements ITestListener {
+public class TestListener extends CommonConditions implements ITestListener {
     private Logger log = LogManager.getRootLogger();
 
     public void onTestFailure(ITestResult iTestResult) {
@@ -22,8 +23,7 @@ public class TestListener implements ITestListener {
     }
 
     private void saveScreenshot(){
-        File screenCapture = ((TakesScreenshot) DriverSingleton
-                .getDriver())
+        File screenCapture = ((TakesScreenshot)DriverSingleton.getDriver())
                 .getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(screenCapture, new File(

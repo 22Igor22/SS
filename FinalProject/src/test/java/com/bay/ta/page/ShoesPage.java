@@ -33,7 +33,21 @@ public class ShoesPage extends AbstractPage
         new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@data-testid='product-card__img-link-overlay']")));
         driver.findElement(By.xpath("//a[@data-testid='product-card__img-link-overlay']")).click();
-        logger.info("choose success");
+        logger.info("choose pair success");
         return new ProductPage(driver);
+    }
+    public ShoesPage chooseSort(){
+        driver.findElement(By.xpath("//button[@id='dropdown-btn']")).click();
+        new WebDriverWait(driver, WAIT_TIMEOUT_SECONDS)
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@value='newest']")));
+        driver.findElement(By.xpath("//button[@value='newest']")).click();
+        logger.info("choose sort success");
+        return this;
+    }
+
+    public ShoesPage chooseFilter(){
+        driver.findElement(By.xpath("//a[@aria-label='Category for Lifestyle']")).click();
+        logger.info("choose filter success");
+        return this;
     }
 }
