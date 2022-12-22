@@ -1,0 +1,11 @@
+com\bay\ta\tests\ShoppingTests.class
+com\bay\ta\page\AbstractPage.class
+com\bay\ta\tests\CommonConditions.class
+com\bay\ta\utils\TestListener.class
+com\bay\ta\tests\FilterTests.class
+com\bay\ta\page\ProductPage.class
+com\bay\ta\service\TestDataReader.class
+com\bay\ta\page\SearchPage.class
+com\bay\ta\driver\DriverSingleton.class
+com\bay\ta\page\ShoesPage.class
+com\bay\ta\page\MainPage.class

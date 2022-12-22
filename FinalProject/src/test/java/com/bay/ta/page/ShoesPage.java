@@ -50,4 +50,11 @@ public class ShoesPage extends AbstractPage
         logger.info("choose filter success");
         return this;
     }
+
+    public ShoesPage chooseSale(){
+        driver.findElement(By.xpath("//button[@id='dropdown-btn']")).click();
+        driver.findElement(By.xpath("//a[@aria-label='Shoes']")).click();
+        logger.info("choose sale success");
+        return this;
+    }
 }

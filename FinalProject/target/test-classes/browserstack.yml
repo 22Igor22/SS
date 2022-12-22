@@ -1,0 +1,16 @@
+userName: igorbay_b7TsIy
+accessKey: wnjh5yCRSXqMTCLKm3zA
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: 103.0
+  - os: Windows
+    osVersion: 10
+    browserName: Firefox
+    browserVersion: 102.0
+  - os: OS X
+    osVersion: Big Sur
+    browserName: Safari
+    browserVersion: 14.1

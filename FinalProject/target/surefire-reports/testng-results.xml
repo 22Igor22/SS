@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-14T17:50:00 MSK" name="All tests" finished-at="2022-12-14T17:50:39 MSK" duration-ms="39017">
+    <groups>
+    </groups>
+    <test started-at="2022-12-14T17:50:00 MSK" name="All tests" finished-at="2022-12-14T17:50:39 MSK" duration-ms="39017">
+      <class name="com.bay.ta.tests.FilterTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bay.ta.tests.FilterTests@3abada5a]" started-at="2022-12-14T17:50:00 MSK" name="setUp" finished-at="2022-12-14T17:50:04 MSK" duration-ms="4502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyingTwoIdenticalPairs()[pri:0, instance:com.bay.ta.tests.FilterTests@3abada5a]" started-at="2022-12-14T17:50:04 MSK" name="buyingTwoIdenticalPairs" finished-at="2022-12-14T17:50:23 MSK" duration-ms="18187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyingTwoIdenticalPairs -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:com.bay.ta.tests.FilterTests@3abada5a]" started-at="2022-12-14T17:50:23 MSK" name="stopBrowser" finished-at="2022-12-14T17:50:23 MSK" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.bay.ta.tests.FilterTests -->
+      <class name="com.bay.ta.tests.ShoppingTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bay.ta.tests.ShoppingTests@66c61024]" started-at="2022-12-14T17:50:23 MSK" name="setUp" finished-at="2022-12-14T17:50:26 MSK" duration-ms="2527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buyingTwoIdenticalPairs()[pri:0, instance:com.bay.ta.tests.ShoppingTests@66c61024]" started-at="2022-12-14T17:50:26 MSK" name="buyingTwoIdenticalPairs" finished-at="2022-12-14T17:50:39 MSK" duration-ms="12897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyingTwoIdenticalPairs -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:com.bay.ta.tests.ShoppingTests@66c61024]" started-at="2022-12-14T17:50:39 MSK" name="stopBrowser" finished-at="2022-12-14T17:50:39 MSK" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.bay.ta.tests.ShoppingTests -->
+    </test> <!-- All tests -->
+  </suite> <!-- All tests -->
+</testng-results>
